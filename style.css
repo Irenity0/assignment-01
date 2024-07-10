@@ -67,6 +67,7 @@ p {
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
+    text-decoration: none;
 }
 
 /* WebDev section styles */
@@ -175,4 +176,135 @@ p {
 
 iframe {
     border-radius: 16px;
+}
+
+/* Current Target section styles */
+.current-target-section {
+    width: 1266.65px;
+    margin: 150px auto;
+}
+
+.current-target-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 948px;
+    height: 125.56px;
+    margin: 0 auto;
+    margin-bottom: 53.33px;
+}
+
+.target-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.current-target-card {
+    border-radius: 16px;
+    width: 404.44px;
+    height: 332.22px;
+    padding: 40px;
+}
+
+.html {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target-card img {
+    margin-bottom: 24px;
+}
+
+.current-target-card p {
+    margin: 14px 0px;
+}
+
+.current-target-card a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+/* Support section styles */
+.support-section {
+    width: 1266.65px;
+    height: 348.89px;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 65px;
+}
+
+.support-section h1, .support-section p {
+    color: rgb(255, 255, 255);  
+    text-align: center;
+}
+
+.support-text {
+    width: 811.11px;
+    margin: 0 auto;
+}
+
+.support-section input {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.support-btn {
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+}
+
+.support-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 60px;
+}
+
+/* Footer styles */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 35.56px 166.67px;
+}
+
+footer h1 {
+    color: rgb(13, 19, 33);
+    font-size: 22.22px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+footer img {
+    margin-left: 25px;
 }
