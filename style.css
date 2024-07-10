@@ -22,6 +22,13 @@ p {
     opacity: 0.7;
 }
 
+a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
 
 /* Banner section style */
 .banner-section {
@@ -166,7 +173,7 @@ p {
 
 .iframe-container {
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
+    border: 2px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -228,12 +235,37 @@ iframe {
     margin: 14px 0px;
 }
 
-.current-target-card a {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
+
+/* Next target styles */
+.next-target-section {
+    width: 1266.65px;
+    height: 962.22px;
+    margin: 0 auto;
 }
+
+.ntarget-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.next-target-card {
+    padding: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.ntarget-card-text p,
+.ntarget-card-text a {
+    padding-bottom: 20px;
+}
+
 
 /* Support section styles */
 .support-section {
@@ -246,6 +278,7 @@ iframe {
     background-size: cover;
     margin: 0 auto;
     margin-bottom: 50px;
+    margin-top: 120px;
     padding: 65px;
 }
 
@@ -264,7 +297,7 @@ iframe {
     height: 57px;
     padding: 19px 20px;
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
+    border: 2px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
     margin-left: 200px;
